@@ -1,0 +1,537 @@
+<!-- 
+                                 ,---.
+                                /    |
+                               /     |
+                              /      |
+                             /       |
+                        ___,'        |
+                      <  -'          :
+                       `-.__..--'``-,_\_
+                          |o/ <o>` :,.)_`>
+                          :/ `     ||/)
+                          (_.).__,-` |\
+                          /( `.``   `| :
+                          \'`-.)  `  ; ;
+                          | `       /-<
+                          |     `  /   `.
+          ,-_-..____     /|  `    :__..-'\
+         /,'-.__\\  ``-./ :`      ;       \
+         `\ `\  `\\  \ :  (   `  /  ,   `. \
+           \` \   \\   |  | `   :  :     .\ \
+            \ `\_  ))  :  ;     |  |      ): :
+           (`-.-'\ ||  |\ \   ` ;  ;       | |
+            \-_   `;;._   ( `  /  /_       | |
+             `-.-.// ,'`-._\__/_,'         ; |
+                \:: :     /     `     ,   /  |
+                 || |    (        ,' /   /   |
+                 ||                ,'   / SSt|
+
+███╗   ███╗██████╗    ██╗    ██╗██╗███████╗ █████╗ ██████╗ ██████╗ 
+████╗ ████║██╔══██╗   ██║    ██║██║╚══███╔╝██╔══██╗██╔══██╗██╔══██╗
+██╔████╔██║██████╔╝   ██║ █╗ ██║██║  ███╔╝ ███████║██████╔╝██║  ██║
+██║╚██╔╝██║██╔══██╗   ██║███╗██║██║ ███╔╝  ██╔══██║██╔══██╗██║  ██║
+██║ ╚═╝ ██║██║  ██║██╗╚███╔███╔╝██║███████╗██║  ██║██║  ██║██████╔╝
+╚═╝     ╚═╝╚═╝  ╚═╝╚═╝ ╚══╝╚══╝ ╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═════
+
+ -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="shortcut icon" type="image/jpg" href="./images/Logo.svg" />
+    <meta property="og:image" content="./images/link_preview.png" />
+    <link rel="image_src" href="./images/link_preview.png" />
+    <title>Emmanuel Eze</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <section class="hero">
+        <nav class="nav-wrapper">
+          <img class="logo" src="./images/Logo.svg" />
+          <div class="burger" onclick="toggleBurger()">
+            <div class="bar" id="bar1"></div>
+            <div class="bar" id="bar2"></div>
+            <div class="bar" id="bar3"></div>
+          </div>
+          <ul class="nav">
+            <a class="click" href="#about"><li class="nav-item">About</li></a>
+            <a class="click" href="#projects"
+              ><li class="nav-item">Projects</li></a
+            >
+            <a class="click" href="#contact"
+              ><li class="nav-item">Contact</li></a
+            >
+            <a
+              href="https://drive.google.com/file/d/1uG2A76dIdHxJlchTDTEm6mpR1zXJFtsM/view?usp=sharing"
+              target="_blank"
+              ><li class="nav-item">Resume</li></a
+            >
+          </ul>
+          <div class="mobile-nav-bg"></div>
+        </nav>
+        <div class="hero-content-wrapper">
+          <img class="logo-bg" src="./images/Logo.svg" />
+          <div class="name-wrapper">
+            <h1 class="name name-stg">Emmanuel Eze</h1>
+            <h3 class="title name-stg">Software Engineer</h3>
+          </div>
+          <div class="social-wrapper">
+            <a href="https://github.com/mitchmalinin" target="_blank"
+              ><img
+                class="social-icon stagger2"
+                src="./images/Github_white.svg"
+            /></a>
+            <a href="https://www.linkedin.com/in/mitchmalinin/" target="_blank"
+              ><img
+                class="social-icon stagger2"
+                src="./images/LinkedIN_white.svg"
+            /></a>
+            <a href="https://twitter.com/mitchmalinin" target="_blank"
+              ><img
+                class="social-icon stagger2"
+                src="./images/Twitter_white.svg"
+            /></a>
+          </div>
+        </div>
+        <img class="circle-bg" src="./images/circle.svg" />
+        <img class="circle-sm stagger1" src="./images/circle.svg" />
+        <img class="triangle-sm stagger1" src="./images/triangle.svg" />
+        <!-- <img class="dots-left" src="./images/dots.svg" />
+        <img class="dots-right" src="./images/dots.svg" /> -->
+        <img class="square-sm stagger1" src="./images/square.svg" />
+        <img class="square-bg" src="./images/square.svg" />
+      </section>
+      <section class="section-spacing about">
+        <div id="about" class="fake-anchor"></div>
+        <div class="section-heading">
+          <h2 class="transition2">About</h2>
+          <h6 class="transition2">Myself</h6>
+        </div>
+        <div class="about-content section-content">
+          <p class="text left">
+            Hey there! My name is Emmanuel, and I'm a full stack web developer who
+            specializes in backend. I have a Bachelor's degree in Electrical Engineering
+            from the prestigous University of Nigeria, Nsukka. I like
+            taking on new challenges, and working with new technologies. I have
+            experience in building complex user interfaces, and a passion for
+            learning blockchain technology. My goal is to develop innovative &
+            awesome applications that will shape the future of society and solve human problems!
+          </p>
+          <img
+            class="circle transition9"
+            src="./images/avatar.svg"
+            alt="avatar"
+          />
+        </div>
+      </section>
+      <section class="section-spacing skills">
+        <div id="skills" class="fake-anchor"></div>
+        <!-- <img class="skills-dots" src="./images/dots.svg" />
+        <img class="skills-dots" src="./images/dots.svg" /> -->
+        <div class="section-heading">
+          <h2 class="transition3">My</h2>
+          <h6 class="skills-title transition3">Skills</h6>
+        </div>
+        <div class="skills-content section-content">
+          <div class="skill-card transition7">
+            <h5>React.js</h5>
+            <div class="skill-card-icon-container React">
+              <img src="./images/skills/react.svg" alt="skills-img" />
+            </div>
+          </div>
+          <div class="skill-card transition7">
+            <h5>JavaScript</h5>
+            <div class="skill-card-icon-container JavaScript">
+              <img src="./images/skills/js.svg" alt="skills-img" />
+            </div>
+          </div>
+          <div class="skill-card transition7">
+            <h5>Node.js</h5>
+            <div class="skill-card-icon-container Node">
+              <img src="./images/skills/node.svg" alt="skills-img" />
+            </div>
+          </div>
+          <div class="skill-card transition7">
+            <h5>PostgreSQL</h5>
+            <div class="skill-card-icon-container transition7 PostgreSQL">
+              <img src="./images/skills/postgres.svg" alt="skills-img" />
+            </div>
+          </div>
+          <div class="skill-card transition7">
+            <h5>Python</h5>
+            <div class="skill-card-icon-container transition7 Python">
+              <img src="./images/skills/python.svg" alt="skills-img" />
+            </div>
+          </div>
+          <div class="skill-card transition7">
+            <h5>HTML</h5>
+            <div class="skill-card-icon-container transition7 html">
+              <img
+                class="smaller-img"
+                src="./images/skills/html.svg"
+                alt="skills-img"
+              />
+            </div>
+          </div>
+          <div class="skill-card transition7">
+            <h5>CSS</h5>
+            <div class="skill-card-icon-container transition7">
+              <img
+                class="smaller-img"
+                src="./images/skills/css.svg"
+                alt="skills-img"
+              />
+            </div>
+          </div>
+          <div class="skill-card transition7">
+            <h5>Flutter</h5>
+            <div class="skill-card-icon-container transition7">
+              <img
+                class="flutter"
+                src="./images/skills/flutter.svg"
+                alt="skills-img"
+              />
+            </div>
+          </div>
+          <div class="skill-card transition7">
+            <h5>Sequelize ORM</h5>
+            <div class="skill-card-icon-container">
+              <img src="./images/skills/sequelize.svg" alt="skills-img" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-spacing">
+        <div id="projects" class="fake-anchor"></div>
+        <div class="section-heading">
+          <h2 class="transition4">My</h2>
+          <h6 class="transition4">Projects</h6>
+        </div>
+        <div class="project-content">
+          <div class="project-item-wrapper showProject1">
+            <div class="project-card-img-section">
+              <img src="./images/project_screenshots/ajoPay.png" alt="" />
+              <div class="project-hidden-links">
+                <a target="_blank" href="http://23.96.125.88:81/login"> Live Link </a>
+              </div>
+            </div>
+            <div class="mobile-links">
+              <a target="_blank" href="http://23.96.125.88:81/login"> Live Link </a>
+            </div>
+            <div class="project-desc-wrapper">
+              <p class="title">
+                <span class="highlight">AjoPay Web App</span>
+                <span class="status">December 2019 - Present</span>
+              </p>
+              <div class="roles">
+                Roles: <span>Implemented the frontend design</span>
+              </div>
+              <div class="desc">
+                <span class="overview">Overview: </span>
+                My task was to recreate the Hedge iOS app in a web app format.
+                Hedge is a fantasy sports platform that allows you to use your
+                spare change in daily fantasy contests where you can yield
+                higher returns. Buy a coffee for $2.50? Use that rounded up
+                $0.50 in a contest to potentially win $5.00, $10.00, $20.00 or
+                even $200.00 through contests of all sizes!
+              </div>
+              <div class="tech-stack">
+                <p>Frontend Stack: <span>React & Styled-Components</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="project-item-wrapper showProject2">
+            <div class="project-card-img-section">
+              <img src="./images/project_screenshots/quarantini.png" alt="" />
+              <div class="project-hidden-links">
+                <a target="_blank" href="https://github.com/ClubQuarentini">
+                  Github
+                </a>
+                <a target="_blank" href="https://rb.gy/nykqru"> Live Link </a>
+              </div>
+            </div>
+            <div class="mobile-links">
+              <a target="_blank" href="https://rb.gy/nykqru"> Live Link </a>
+              <a target="_blank" href="https://github.com/ClubQuarentini">
+                Github
+              </a>
+            </div>
+            <div class="project-desc-wrapper">
+              <p class="title">
+                <span class="highlight">The Quarantini Club </span>
+                <span class="status">April 2020 - June 2020</span>
+              </p>
+              <div class="roles">
+                Roles: <span>developed frontend and backend</span>
+              </div>
+              <div class="desc">
+                <span class="overview">Overview: </span>
+                My friend and I built Quarantini Club during the start of
+                COVID-19, when all the bars were closed. The Quarantini Club is
+                the best way to get virtual drinks online with friends! This app
+                is built with the Twilio Programable Video SDK, so the video
+                quality is perfect. Inside the club, you will find a virtual
+                bartender named Jerry who makes a wide verity of drinks.
+              </div>
+              <div class="tech-stack">
+                <p>Frontend Stack: <span>React.js, Twilio & Socket.io</span></p>
+                <p>Backend Stack: <span>Node.js, Express.js</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="project-item-wrapper showProject3">
+            <div class="project-card-img-section">
+              <img
+                src="./images/project_screenshots/projectpocket.png"
+                alt=""
+              />
+              <div class="project-hidden-links">
+                <a
+                  target="_blank"
+                  href="https://github.com/mitch-candido-final-project/final-project-actual"
+                >
+                  Github
+                </a>
+                <a target="_blank" href="https://projectpocket.herokuapp.com/">
+                  Live Link
+                </a>
+              </div>
+            </div>
+            <div class="mobile-links">
+              <a target="_blank" href="https://projectpocket.herokuapp.com/">
+                Live Link
+              </a>
+              <a
+                target="_blank"
+                href="https://github.com/mitch-candido-final-project/final-project-actual"
+              >
+                Github
+              </a>
+            </div>
+            <div class="project-desc-wrapper">
+              <p class="title">
+                <span class="highlight">Project Pocket</span>
+                <span class="status">August 2019 - September 2019</span>
+              </p>
+              <div class="roles">
+                Roles: <span>designed & developed frontend</span>
+              </div>
+              <div class="desc">
+                <span class="overview">Overview: </span>
+                My friend and I always struggled with project
+                management/organization, so we wanted to build a tool to help us
+                with that. Project Pocket is a way to keep all your projects in
+                your pocket! This app helps users keep a virtual portfolio of
+                all their personal projects. This app also helps users with
+                project management. When creating a new project, users are given
+                a calender view to keep track of their different daily project
+                tasks.
+              </div>
+              <div class="tech-stack">
+                <p>Frontend Stack: <span>React.js</span></p>
+                <p>Backend Stack: <span>Node.js, Express.js, MongoDB</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="project-item-wrapper showProject4">
+            <div class="project-card-img-section">
+              <img src="./images/project_screenshots/blackjack.png" alt="" />
+              <div class="project-hidden-links">
+                <a
+                  target="_blank"
+                  href="https://github.com/mitchmalinin/LinkSaver"
+                >
+                  Github
+                </a>
+                <a
+                  target="_blank"
+                  href="https://official-link-saver.herokuapp.com/"
+                >
+                  Live Link
+                </a>
+              </div>
+            </div>
+            <div class="mobile-links">
+              <a
+                target="_blank"
+                href="https://official-link-saver.herokuapp.com/"
+              >
+                Live Link
+              </a>
+              <a
+                target="_blank"
+                href="https://github.com/mitchmalinin/LinkSaver"
+              >
+                Github
+              </a>
+            </div>
+            <div class="project-desc-wrapper">
+              <p class="title">
+                <span class="highlight">Link Saver</span>
+                <span class="status">July 2019 - August 2019</span>
+              </p>
+              <div class="roles">
+                Roles: <span>designed & developed frontend and backend</span>
+              </div>
+              <div class="desc">
+                <span class="overview">Overview: </span>
+                I chose to redesign the bookmark manager. I wanted to create a
+                simple and clean UI that made saving bookmarks a pleasant
+                experience. I also wanted to incorporate a way to view other
+                people's bookmarks, so users could see what resources others
+                like to use.
+              </div>
+              <div class="tech-stack">
+                <p>Frontend Stack: <span>Javascript, HTML, CSS</span></p>
+                <p>
+                  Backend Stack:
+                  <span>Mongo, Mongoose, Node.js, Express.js, HandleBars</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="project-item-wrapper showProject5">
+            <div class="project-card-img-section">
+              <img src="./images/project_screenshots/link-saver.png" alt="" />
+              <div class="project-hidden-links">
+                <a
+                  target="_blank"
+                  href="https://github.com/mitchmalinin/Blackjack"
+                >
+                  Github
+                </a>
+                <a
+                  target="_blank"
+                  href="https://mitchmalinin.github.io/Blackjack/"
+                >
+                  Live Link
+                </a>
+              </div>
+            </div>
+            <div class="mobile-links">
+              <a
+                target="_blank"
+                href="https://mitchmalinin.github.io/Blackjack/"
+              >
+                Live Link
+              </a>
+              <a
+                target="_blank"
+                href="https://github.com/mitchmalinin/Blackjack"
+              >
+                Github
+              </a>
+            </div>
+            <div class="project-desc-wrapper">
+              <p class="title">
+                <span class="highlight">Black Jack</span>
+                <span class="status">June 2019 - June 2019</span>
+              </p>
+              <div class="roles">
+                Roles: <span>designed & developed frontend</span>
+              </div>
+              <div class="desc">
+                <span class="overview">Overview: </span>
+                I wanted to build something unique, so I chose to create a game
+                of blackjack but with a sleek and modern design.
+              </div>
+              <div class="tech-stack">
+                <p>
+                  Frontend Stack: <span>Javascript, Jquery, HTML & CSS</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer id="contact">
+        <div class="section-heading">
+          <h2 class="transition5">Contact</h2>
+          <h6 class="transition5">me</h6>
+        </div>
+
+        <div class="footer-content">
+          <div class="link-wrapper transition8">
+            <div class="link">
+              <img class="social-icon" src="./images/Gmail_white.svg" />
+              <span>mitchmalinin@gmail.com</span>
+            </div>
+            <a href="https://www.linkedin.com/in/mitchmalinin/" target="_blank">
+              <div class="link">
+                <img class="social-icon" src="./images/LinkedIN_white.svg" />
+                <span>linkedin.com/in/mitchmalinin/</span>
+              </div>
+            </a>
+            <a href="https://github.com/mitchmalinin" target="_blank">
+              <div class="link">
+                <img class="social-icon" src="./images/Github_white.svg" />
+                <span>github.com/mitchmalinin</span>
+              </div>
+            </a>
+            <a href="https://twitter.com/mitchmalinin" target="_blank">
+              <div class="link">
+                <img class="social-icon" src="./images/Twitter_white.svg" />
+                <span>twitter.com/mitchmalinin</span>
+              </div>
+            </a>
+            <!-- <a href="./Mitchell Malinin.pdf" download="Mitch Malinin">
+              <div class="link">
+                <i class="fas fa-file fa-1x"></i>
+                <span>Download Resume</span>
+              </div>
+            </a> -->
+          </div>
+
+          <div class="credits">
+            <a
+              class="resume"
+              href="./Mitchell Malinin.pdf"
+              download="Mitch Malinin"
+            >
+              <div class="link">
+                <i class="fas fa-file"></i>
+                <span>Download Resume</span>
+              </div>
+            </a>
+            <img src="./images/Logo.svg" />
+            <span>Mitch Malinin 2021 ©</span>
+          </div>
+
+          <img class="dots transition8" src="images/dots.svg" alt="dots" />
+          <img
+            class="tri transition8"
+            src="./images/triangle.svg"
+            alt="triangle"
+          />
+        </div>
+      </footer>
+
+      <script
+        src="https://kit.fontawesome.com/a561988c34.js"
+        crossorigin="anonymous"
+      ></script>
+
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"
+        integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ=="
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"
+        integrity="sha512-Q+G390ZU2qKo+e4q+kVcJknwfGjKJOdyu5mVMcR95NqL6XaF4lY4nsSvIVB3NDP54ACsS9rqhE1DVqgpApl//Q=="
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"
+      ></script>
+
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>
