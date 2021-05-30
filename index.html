@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/main.css" />
-    <link rel="shortcut icon" type="image/jpg" href="./images/Logo.svg" />
-    <meta property="og:image" content="./images/link_preview.png" />
-    <link rel="image_src" href="./images/link_preview.png" />
+    <link rel="shortcut icon" href="./images/favicon.ico" />
+    <!-- <meta property="og:image" content="./images/link_preview.png" />
+    <link rel="image_src" href="./images/link_preview.png" /> -->
     <title>Emmanuel Eze</title>
   </head>
   <body>
     <div class="wrapper">
       <section class="hero">
         <nav class="nav-wrapper">
-          <img class="logo" src="./images/Logo.svg" />
+          <h1 class="logo-text">{ Js };</h1>
           <div class="burger" onclick="toggleBurger()">
             <div class="bar" id="bar1"></div>
             <div class="bar" id="bar2"></div>
@@ -37,37 +37,38 @@
           <div class="mobile-nav-bg"></div>
         </nav>
         <div class="hero-content-wrapper">
-          <img class="logo-bg" src="./images/Logo.svg" />
+          <img class="logo-bg" src="./images/logo1.svg" />
           <div class="name-wrapper">
             <h1 class="name name-stg">Emmanuel Eze</h1>
             <h3 class="title name-stg">Software Engineer</h3>
           </div>
           <div class="social-wrapper">
-            <a href="https://github.com/mitchmalinin" target="_blank"
+            <a href="https://github.com/ushnuel" target="_blank"
               ><img
                 class="social-icon stagger2"
                 src="./images/Github_white.svg"
             /></a>
-            <a href="https://www.linkedin.com/in/mitchmalinin/" target="_blank"
+            <a href="https://www.linkedin.com/in/emmanuel-eze-99026a163" target="_blank"
               ><img
                 class="social-icon stagger2"
                 src="./images/LinkedIN_white.svg"
             /></a>
-            <a href="https://twitter.com/mitchmalinin" target="_blank"
+            <a href="https://twitter.com/ChinazoEmmanuel" target="_blank"
               ><img
                 class="social-icon stagger2"
                 src="./images/Twitter_white.svg"
             /></a>
           </div>
         </div>
-        <img class="circle-bg" src="./images/circle.svg" />
+        <!-- <img class="circle-bg" src="./images/circle.svg" />
         <img class="circle-sm stagger1" src="./images/circle.svg" />
-        <img class="triangle-sm stagger1" src="./images/triangle.svg" />
+        <img class="triangle-sm stagger1" src="./images/triangle.svg" /> -->
         <!-- <img class="dots-left" src="./images/dots.svg" />
         <img class="dots-right" src="./images/dots.svg" /> -->
-        <img class="square-sm stagger1" src="./images/square.svg" />
-        <img class="square-bg" src="./images/square.svg" />
+        <!-- <img class="square-sm stagger1" src="./images/square.svg" />
+        <img class="square-bg" src="./images/square.svg" /> -->
       </section>
+
       <section class="section-spacing about">
         <div id="about" class="fake-anchor"></div>
         <div class="section-heading">
@@ -76,25 +77,24 @@
         </div>
         <div class="about-content section-content">
           <p class="text left">
-            Hey there! My name is Emmanuel, and I'm a full stack web developer who
+            Hey there! My name is Emmanuel, and I'm a software developer who
             specializes in backend. I have a Bachelor's degree in Electrical Engineering
-            from the prestigous University of Nigeria, Nsukka. I like
-            taking on new challenges, and working with new technologies. I have
-            experience in building complex user interfaces, and a passion for
-            learning blockchain technology. My goal is to develop innovative &
+            from the prestigous University of Nigeria, Nsukka. Avid programmer and fast learner. 
+            Obsessed with detail and quality. 
+            Always trying to improve development and communication process. I 
+            love simple and elegant solutions for every problem. My goal is to develop innovative &
             awesome applications that will shape the future of society and solve human problems!
           </p>
           <img
             class="circle transition9"
-            src="./images/avatar.svg"
+            src="./images/profile.jpg"
             alt="avatar"
           />
         </div>
       </section>
+
       <section class="section-spacing skills">
         <div id="skills" class="fake-anchor"></div>
-        <!-- <img class="skills-dots" src="./images/dots.svg" />
-        <img class="skills-dots" src="./images/dots.svg" /> -->
         <div class="section-heading">
           <h2 class="transition3">My</h2>
           <h6 class="skills-title transition3">Skills</h6>
@@ -178,6 +178,38 @@
         <div class="project-content">
           <div class="project-item-wrapper showProject1">
             <div class="project-card-img-section">
+              <img src="./images/project_screenshots/switch.png" alt="" />
+              <div class="project-hidden-links">
+                <a target="_blank" href="https://switch-ng.com/"> Live Link </a>
+              </div>
+            </div>
+            <div class="mobile-links">
+              <a target="_blank" href="https://switch-ng.com/"> Live Link </a>
+            </div>
+            <div class="project-desc-wrapper">
+              <p class="title">
+                <span class="highlight">Switch By Sterling</span>
+                <span class="status">January 2020 - Present</span>
+              </p>
+              <div class="roles">
+                Roles: <span>Backend Developer</span>
+              </div>
+              <div class="desc">
+                <span class="overview">Overview: </span>
+                Switch By Sterling is a multi-currency savings account that provides 
+                customers with added value through an extended partnership network.
+                As a backend developer, I am responsible for implementing API's for 
+                the frontend team, roubleshooting and resolving any technical challenge
+                faced by our customers.
+              </div>
+              <div class="tech-stack">
+                <p>Tech Stack: <span>Node.Js, Express.Js, Sequelize ORM, PostgreSQL</span></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-item-wrapper showProject2">
+            <div class="project-card-img-section">
               <img src="./images/project_screenshots/ajoPay.png" alt="" />
               <div class="project-hidden-links">
                 <a target="_blank" href="http://23.96.125.88:81/login"> Live Link </a>
@@ -192,226 +224,134 @@
                 <span class="status">December 2019 - Present</span>
               </p>
               <div class="roles">
-                Roles: <span>Implemented the frontend design</span>
+                Roles: <span>Frontend Developer</span>
               </div>
               <div class="desc">
                 <span class="overview">Overview: </span>
-                My task was to recreate the Hedge iOS app in a web app format.
-                Hedge is a fantasy sports platform that allows you to use your
-                spare change in daily fantasy contests where you can yield
-                higher returns. Buy a coffee for $2.50? Use that rounded up
-                $0.50 in a contest to potentially win $5.00, $10.00, $20.00 or
-                even $200.00 through contests of all sizes!
+                AjoPay simplifies the process of dues collection, monetary 
+                contributions and other payments in group of people with a common goal.
+                As a remote frontend developer, I am responsible for the design implementation,
+                using React best practices for optimal app performance.
               </div>
               <div class="tech-stack">
-                <p>Frontend Stack: <span>React & Styled-Components</span></p>
+                <p>Tech Stack: <span>React, Redux, Hooks</span></p>
               </div>
             </div>
           </div>
-          <div class="project-item-wrapper showProject2">
+
+          <div class="project-item-wrapper showProject3">
             <div class="project-card-img-section">
-              <img src="./images/project_screenshots/quarantini.png" alt="" />
+              <img src="./images/project_screenshots/codeet.png" alt="" />
               <div class="project-hidden-links">
-                <a target="_blank" href="https://github.com/ClubQuarentini">
-                  Github
-                </a>
                 <a target="_blank" href="https://rb.gy/nykqru"> Live Link </a>
               </div>
             </div>
             <div class="mobile-links">
               <a target="_blank" href="https://rb.gy/nykqru"> Live Link </a>
-              <a target="_blank" href="https://github.com/ClubQuarentini">
-                Github
-              </a>
             </div>
             <div class="project-desc-wrapper">
               <p class="title">
-                <span class="highlight">The Quarantini Club </span>
-                <span class="status">April 2020 - June 2020</span>
+                <span class="highlight">Codeet Solutions</span>
+                <span class="status">Jan 2019 - Jan 2020</span>
               </p>
               <div class="roles">
-                Roles: <span>developed frontend and backend</span>
+                Roles: <span>Backend and Frontend Developer</span>
               </div>
               <div class="desc">
                 <span class="overview">Overview: </span>
-                My friend and I built Quarantini Club during the start of
-                COVID-19, when all the bars were closed. The Quarantini Club is
-                the best way to get virtual drinks online with friends! This app
-                is built with the Twilio Programable Video SDK, so the video
-                quality is perfect. Inside the club, you will find a virtual
-                bartender named Jerry who makes a wide verity of drinks.
+                A top-of-the-line Lagos based tech company passionate about building 
+                great software products and offering digital marketing services 
+                for SMEs and Corporetions. I was responsible for both the frontend
+                and backend development.
               </div>
               <div class="tech-stack">
-                <p>Frontend Stack: <span>React.js, Twilio & Socket.io</span></p>
-                <p>Backend Stack: <span>Node.js, Express.js</span></p>
+                <p>Tech Stack: <span>Node.js, Express.js, React.Js</span></p>
               </div>
             </div>
           </div>
-          <div class="project-item-wrapper showProject3">
+
+          <div class="project-item-wrapper showProject4">
             <div class="project-card-img-section">
               <img
-                src="./images/project_screenshots/projectpocket.png"
+                src="./images/project_screenshots/teamwork.png"
                 alt=""
               />
               <div class="project-hidden-links">
-                <a
-                  target="_blank"
-                  href="https://github.com/mitch-candido-final-project/final-project-actual"
-                >
-                  Github
-                </a>
-                <a target="_blank" href="https://projectpocket.herokuapp.com/">
-                  Live Link
+                <a target="_blank" href="https://ushnuel.github.io/teamwork-ui">
+                  Github Link
                 </a>
               </div>
             </div>
             <div class="mobile-links">
-              <a target="_blank" href="https://projectpocket.herokuapp.com/">
-                Live Link
-              </a>
-              <a
-                target="_blank"
-                href="https://github.com/mitch-candido-final-project/final-project-actual"
-              >
-                Github
+              <a target="_blank" href="https://ushnuel.github.io/teamwork-ui">
+               Github Link
               </a>
             </div>
             <div class="project-desc-wrapper">
               <p class="title">
-                <span class="highlight">Project Pocket</span>
-                <span class="status">August 2019 - September 2019</span>
+                <span class="highlight">Teamwork</span>
+                <span class="status">August 2019 - November 2019</span>
               </p>
               <div class="roles">
-                Roles: <span>designed & developed frontend</span>
+                Roles: <span>Backend and Frontend Developer</span>
               </div>
               <div class="desc">
                 <span class="overview">Overview: </span>
-                My friend and I always struggled with project
-                management/organization, so we wanted to build a tool to help us
-                with that. Project Pocket is a way to keep all your projects in
-                your pocket! This app helps users keep a virtual portfolio of
-                all their personal projects. This app also helps users with
-                project management. When creating a new project, users are given
-                a calender view to keep track of their different daily project
-                tasks.
+                Teamwork is a project that manages the relationship between 
+                employees in an organization. It was geared towards improving 
+                the existing relationship. I was responsible for both the 
+                frontend and backend implementation. This project was built during my
+                3 months internship with Andela.
               </div>
               <div class="tech-stack">
-                <p>Frontend Stack: <span>React.js</span></p>
-                <p>Backend Stack: <span>Node.js, Express.js, MongoDB</span></p>
+                <p>Tech Stack: <span>Node.js, Express.js, PostgreSQL, React.Js</span></p>
               </div>
             </div>
           </div>
-          <div class="project-item-wrapper showProject4">
-            <div class="project-card-img-section">
-              <img src="./images/project_screenshots/blackjack.png" alt="" />
-              <div class="project-hidden-links">
-                <a
-                  target="_blank"
-                  href="https://github.com/mitchmalinin/LinkSaver"
-                >
-                  Github
-                </a>
-                <a
-                  target="_blank"
-                  href="https://official-link-saver.herokuapp.com/"
-                >
-                  Live Link
-                </a>
-              </div>
-            </div>
-            <div class="mobile-links">
-              <a
-                target="_blank"
-                href="https://official-link-saver.herokuapp.com/"
-              >
-                Live Link
-              </a>
-              <a
-                target="_blank"
-                href="https://github.com/mitchmalinin/LinkSaver"
-              >
-                Github
-              </a>
-            </div>
-            <div class="project-desc-wrapper">
-              <p class="title">
-                <span class="highlight">Link Saver</span>
-                <span class="status">July 2019 - August 2019</span>
-              </p>
-              <div class="roles">
-                Roles: <span>designed & developed frontend and backend</span>
-              </div>
-              <div class="desc">
-                <span class="overview">Overview: </span>
-                I chose to redesign the bookmark manager. I wanted to create a
-                simple and clean UI that made saving bookmarks a pleasant
-                experience. I also wanted to incorporate a way to view other
-                people's bookmarks, so users could see what resources others
-                like to use.
-              </div>
-              <div class="tech-stack">
-                <p>Frontend Stack: <span>Javascript, HTML, CSS</span></p>
-                <p>
-                  Backend Stack:
-                  <span>Mongo, Mongoose, Node.js, Express.js, HandleBars</span>
-                </p>
-              </div>
-            </div>
-          </div>
+
           <div class="project-item-wrapper showProject5">
             <div class="project-card-img-section">
-              <img src="./images/project_screenshots/link-saver.png" alt="" />
+              <img src="./images/project_screenshots/queenAttack.png" alt="" />
               <div class="project-hidden-links">
                 <a
                   target="_blank"
-                  href="https://github.com/mitchmalinin/Blackjack"
+                  href="https://ushnuel.github.io/Queen-Attack/ui/"
                 >
-                  Github
-                </a>
-                <a
-                  target="_blank"
-                  href="https://mitchmalinin.github.io/Blackjack/"
-                >
-                  Live Link
+                  Github Link
                 </a>
               </div>
             </div>
             <div class="mobile-links">
               <a
                 target="_blank"
-                href="https://mitchmalinin.github.io/Blackjack/"
+                href="https://ushnuel.github.io/Queen-Attack/ui/"
               >
-                Live Link
-              </a>
-              <a
-                target="_blank"
-                href="https://github.com/mitchmalinin/Blackjack"
-              >
-                Github
+                Github Link
               </a>
             </div>
             <div class="project-desc-wrapper">
               <p class="title">
-                <span class="highlight">Black Jack</span>
-                <span class="status">June 2019 - June 2019</span>
+                <span class="highlight">Queen Attack</span>
+                <span class="status">August 2019 - Nov 2019</span>
               </p>
               <div class="roles">
-                Roles: <span>designed & developed frontend</span>
+                Roles: <span>JavaScript Developer</span>
               </div>
               <div class="desc">
                 <span class="overview">Overview: </span>
-                I wanted to build something unique, so I chose to create a game
-                of blackjack but with a sleek and modern design.
+                Queen Attack is game which determines different chess queen movements.
+                You will have to select maximum of two queens to play, and see if 
+                both teams can attach each other or not. It was developed during my 
+                3 months internship with Andela.
               </div>
               <div class="tech-stack">
-                <p>
-                  Frontend Stack: <span>Javascript, Jquery, HTML & CSS</span>
-                </p>
+                <p>Tech Stack: <span>Javascript, HTML, CSS</span></p>
               </div>
             </div>
           </div>
         </div>
       </section>
+
       <footer id="contact">
         <div class="section-heading">
           <h2 class="transition5">Contact</h2>
@@ -442,12 +382,6 @@
                 <span>twitter.com/emmanuel</span>
               </div>
             </a>
-            <!-- <a href="./Mitchell Malinin.pdf" download="Mitch Malinin">
-              <div class="link">
-                <i class="fas fa-file fa-1x"></i>
-                <span>Download Resume</span>
-              </div>
-            </a> -->
           </div>
 
           <div class="credits">
@@ -461,16 +395,8 @@
                 <span>Download Resume</span>
               </div>
             </a>
-            <img src="./images/Logo.svg" />
             <span>Emmanuel Eze 2021 ©</span>
           </div>
-
-          <!-- <img class="dots transition8" src="images/dots.svg" alt="dots" /> -->
-          <img
-            class="tri transition8"
-            src="./images/triangle.svg"
-            alt="triangle"
-          />
         </div>
       </footer>
 
