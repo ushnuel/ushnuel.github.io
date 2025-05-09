@@ -212,7 +212,18 @@ gsap.from(".showProject5", {
 
 gsap.from(".showProject6", {
   scrollTrigger: {
-    trigger: ".showProject5",
+    trigger: ".showProject6",
+    start: "top center",
+  },
+  x: 80,
+  opacity: 0,
+  duration: 3,
+  ease: Power4.easeOut,
+});
+
+gsap.from(".showProject7", {
+  scrollTrigger: {
+    trigger: ".showProject7",
     start: "top center",
   },
   x: 80,
